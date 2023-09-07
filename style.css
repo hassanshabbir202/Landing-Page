@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,800;1,900&family=Roboto:ital,wght@0,500;1,100&family=Syne+Tactile&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins";
+}
+.navbar-coontainer{
+    display: flex;
+    justify-content: center;
+}
+.hero-section-container{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    margin-top: 2rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.logo p{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+.web-logo-part-one{
+    color: #aca8b9;
+}
+.web-logo{
+    color: #443a5d;
+}
+.links a{
+    margin-left: 2.2rem;
+    text-decoration: none;
+    color: #949599;
+}
+.links button{
+    margin-left: 2.2rem;
+    background-color: #5f19f5;
+    padding: .4rem .8rem;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-family: "Poppins";
+}
+.hero-section{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.info-div h1{
+    font-size: 50px;
+    color: #443a5c;
+}
+.info-div p{
+    font-size: 15px;
+    margin-top: .6rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 23px;
+}
+.info-div button{
+    background-color: #443a5c;
+    margin-top: 1rem;
+    padding: .6rem 2rem;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-family: "Poppins";   
+}
+.image-div{
+    position: relative;
+    height: 100%;
+    padding: 4rem;
+    margin-right: 15rem;
+}
+.image-div img{
+    position: absolute;
+    top: 0;
+    animation: moveUpDown 5s linear infinite;
+}
+
+@keyframes moveUpDown {
+    0% ,100% {
+       top: 0;
+    }
+    50%{
+      top: calc(20% - 20px);
+    }
+}
+
